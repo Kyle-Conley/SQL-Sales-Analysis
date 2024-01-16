@@ -27,13 +27,18 @@ This project involves analyzing sales performance data using SQL. It includes se
     sqlite3 salesDatabase.db
 
 3. Import CSV Data by running following commands:
-     .mode csv 
-     .import Salesperson.csv Salesperson 
+   
+     .mode csv
+   
+     .import Salesperson.csv Salesperson
+   
     .import Product.csv Product
+   
     .import SalesTransaction.csv SalesTransaction
+   
     .import SalesCompensationPlan.csv SalesCompensationPlan
 
-4. Execut SQL Queries for analysis:
+5. Execut SQL Queries for analysis:
      -- Example: Total Sales per Salesperson
       SELECT salesperson_id, SUM(amount) AS total_sales
       FROM SalesTransaction
