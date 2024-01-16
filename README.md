@@ -16,7 +16,7 @@ This project involves analyzing sales performance data using SQL. It includes se
 
 ## Setup Instructions
 
-### 1. SQLite Database Setup
+### SQLite Database Setup
 
 1. Navigate to your project directory:
    ```bash
