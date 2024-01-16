@@ -38,7 +38,7 @@ This project involves analyzing sales performance data using SQL. It includes se
    
     .import SalesCompensationPlan.csv SalesCompensationPlan
 
-5. Execut SQL Queries for analysis:
+5. Execute SQL Queries for analysis:
    
      -- Example: Total Sales per Salesperson
    
