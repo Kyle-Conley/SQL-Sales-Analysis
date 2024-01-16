@@ -1,0 +1,4 @@
+plan_id,salesperson_id,commission_rate,quota
+501,1,0.05,10000
+502,2,0.08,15000
+503,3,0.06,12000
