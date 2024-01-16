@@ -39,14 +39,24 @@ This project involves analyzing sales performance data using SQL. It includes se
     .import SalesCompensationPlan.csv SalesCompensationPlan
 
 5. Execut SQL Queries for analysis:
+   
      -- Example: Total Sales per Salesperson
+   
       SELECT salesperson_id, SUM(amount) AS total_sales
+   
       FROM SalesTransaction
+   
       GROUP BY salesperson_id;
+   
 
     -- Example: Top-Performing Products
+   
     SELECT product_id, COUNT(*) AS sales_count
+   
     FROM SalesTransaction
+   
     GROUP BY product_id
+   
     ORDER BY sales_count DESC
+   
     LIMIT 5;
